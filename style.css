@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+.sidebar{
+    background-color: rgb(159, 153, 153);
+    width: 400px;
+    height: 100vh auto;
+    font-family: 'Fira Sans', sans-serif;
+}
+.sidebar nav{
+    padding: 40px;
+}
+.sidebar nav li{
+   list-style: none;
+   font-size: 25px;
+   padding: 33px 0;
+}
+
+.main{
+  /*  background-color: darkkhaki;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+   /* background-color: palevioletred;*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    justify-content: space-around;
+}
+
+.hello{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 45px;
+}
+.name{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 40px;
+}
+.moreabout{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 22px;
+}
+
+.devpic img{
+    height: 58vh;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
